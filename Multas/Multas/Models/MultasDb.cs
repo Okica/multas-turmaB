@@ -12,6 +12,7 @@ namespace Multas.Models
         public MultasDb() : base("name=MultasDBConnectionString") { }
 
 
+
         //descrever os nomes da tabelas na base de dados
         //        nome do atributo //   da classe
         public virtual DbSet<Multas> Multas { get; set; } // tbl Multas
